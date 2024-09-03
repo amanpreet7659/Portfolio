@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Website Icon" type="jpg" href="images/aboutme-img.jpg" />
+    <title>Amanpreet Singh || Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/19e7231511.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h3 id="logo">My<font>Portfolio</font></h3>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p id="fade">Welcome to my Portfolio</p>
+          <h1>
+            Hi, I'm Amanpreet Singh <br />
+            <span class="auto-type">Web Developer</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/aboutme-img.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p id="text">
+              I'm Amanpreet Singh, a highly skilled MERN stack developer with
+              four years of hands-on experience in crafting sophisticated web
+              and mobile applications. My expertise encompasses a broad spectrum
+              of technologies and tools, ensuring that I can deliver innovative
+              and reliable solutions tailored to meet diverse needs.. <br />I'm
+              looking forward to contributing my skills to exciting projects and
+              growing alongside innovative teams in the tech industry.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML</span> - 95%</li>
+                <li><span>CSS</span> - 90%</li>
+                <li><span>Bootstrap</span> - 95%</li>
+                <li><span>Tailwind CSS</span> - 90%</li>
+                <li><span>JavaScript</span> - 95%</li>
+                <li><span>JQuery</span> - 95%</li>
+                <li><span>React</span> - 90%</li>
+                <li><span>React-Redux</span> - 90%</li>
+                <li><span>React-Native</span> - 90%</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span
+                    >Bachelor of Computer Science and Engineering (BTech.)</span
+                  >
+                  <br />
+                  - Chandigarh University [2017-2020]
+                </li>
+                <li>
+                  <span>Diploma in Computer Science and Engineering</span>
+                  <br />- PSEB [2012-2016]
+                </li>
+                <li><span>Matriculation</span> <br />- PSEB [2011-2012]</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/BCT.jpeg" />
+            <div class="layer">
+              <h3>Sultnat of Oman</h3>
+              <p>
+                This was an gov. entity project where user can request to gov
+                for multiple serves like for Housing Grant, For Land etc.
+                Citizen no need to visit to the courts to check status for the
+                application. He'll get update him by mail and SMS notification.
+                Because this project is region specific we can't access it.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/image.png" />
+            <div class="layer">
+              <h3>Magnifi</h3>
+              <p>
+                It was a inverstor funds application where a user can register
+                as individual or as joint account and can invest in mutual funds
+                plans.
+              </p>
+              <a href="https://magnifi.com/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/nest-genie.png" />
+            <div class="layer">
+              <h3>The Nest Gini</h3>
+              <p>
+                This was the one of leading e-commerce platform, offering a wide
+                range of products including electronics, fashion, home goods,
+                and more. It has become a major player in the online retail
+                space. The platform provides customers with a seamless shopping
+                experience, featuring personalized recommendations, competitive
+                pricing, and reliable delivery options.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="https://github.com/amanpreet7659?tab=overview"
+          target="_blank"
+          class="btn"
+          >See more</a
+        >
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i
+              ><a id="main" href="mailto:amanpreetsingh7659@gmail.com"
+                >amanpreetsingh7659@gmail.com</a
+              >
+            </p>
+            <p>
+              <i class="fa-solid fa-phone"></i
+              ><a id="main" href="tel:(+91) 8580524080"
+                >(+91) 9855273953/6284495080</a
+              >
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/amanpreetsingh9512/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="www.linkedin.com/in/amanpreet-singh-45589119b"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/amanpreet7659?tab=overview"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <!-- <a href="images/PrinceResume.pdf" download class="btn btn2">Download CV</a> -->
+          </div>
+          <div class="contact-right">
+            <form action="" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="3347ee3a-ab5e-4bf2-a10a-a00cced9859f"
+              />
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © 2024, Made with
+          &nbsp;<i class="fa-solid fa-heart">&nbsp; by Amanpreet Singh</i>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </body>
+</html>
